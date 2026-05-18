@@ -24,7 +24,7 @@
 
 # D. masukan kode program ini
 ```cpp
- #include <iostream>
+#include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -85,7 +85,7 @@ lalu klik local  windows debugger.
 # E. jika muncul kode error
 
 ## eror 1
-![[media\error.png]]
+![eeror compile](media/error.png)
 solusinya adalah memindahkan urutan header 
 ```cpp
 #include <GLFW/glfw3.h>
@@ -99,5 +99,5 @@ menjadi
 maka masalah error akan menghilang
 
 ## masalah eror 2
-![[media\msvcr120.png]]
+![error msvcr](media/msvcr120.png)
 jika muncul "eror msvcr120.dll not found", maka perlu mengunduh file msvcr120 dari media browser, lalu file hasil unduh dimasukan ke dalam "local disk > windows > SysWOW64 dan local disk > windows > System32" setelah itu restart.
